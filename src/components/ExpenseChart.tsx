@@ -1,7 +1,7 @@
 "use client"
 
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend } from "recharts"
-import { Expense } from "../App"
+import { Expense } from "./ExpenseArea/ExpenseArea"
 
 type ExpenseChartProps = {
   expenses: Expense[]

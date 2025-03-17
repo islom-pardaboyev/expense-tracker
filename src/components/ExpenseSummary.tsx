@@ -1,4 +1,4 @@
-import { Expense } from "../App";
+import { Expense } from "./ExpenseArea/ExpenseArea";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 type ExpenseSummaryProps = {
