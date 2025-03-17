@@ -14,7 +14,7 @@ import { cn } from "../lib/utils";
 import { format } from "date-fns";
 import { CalendarIcon } from "lucide-react";
 import { Button } from "./ui/button";
-import { Expense } from "../App";
+import { Expense } from "./ExpenseArea/ExpenseArea";
 type ExpenseFormProps = {
   onSubmit: (expense: Omit<Expense, "id">) => void;
   onCancel: () => void;
