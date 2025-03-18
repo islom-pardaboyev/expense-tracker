@@ -51,6 +51,7 @@ function ExpenseArea() {
                 Add Expense
               </Button>
             </div>
+            {expenses.length === 0 && <h1 className="text-center font-bold text-lg">We don't have any changes</h1>}
             {formVisible && (
               <div className="mb-6">
                 <ExpenseTracker

